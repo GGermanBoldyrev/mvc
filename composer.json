@@ -1,0 +1,16 @@
+{
+    "name": "german/mvc",
+    "autoload": {
+        "psr-4": {
+            "app\\core\\": "core",
+            "app\\controllers\\": "controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "german",
+            "email": "boldyrev_german@mail.ru"
+        }
+    ],
+    "require": {}
+}
