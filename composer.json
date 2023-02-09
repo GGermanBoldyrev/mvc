@@ -3,7 +3,8 @@
     "autoload": {
         "psr-4": {
             "app\\core\\": "core",
-            "app\\controllers\\": "controllers"
+            "app\\controllers\\": "controllers",
+            "app\\models\\": "models"
         }
     },
     "authors": [
