@@ -1,5 +1,8 @@
 <h2>Create an account</h2>
-<form action="" method="post">
+<?php $form = \app\core\form\Form::begin("", "post") ?>
+    <?php echo $form->field('model', 'attr') ?>
+<?php \app\core\form\Form::end() ?>
+<!--<form action="" method="">
     <div class="row">
         <div class="col">
             <div class="mb-3">
@@ -27,4 +30,4 @@
         <input type="password" name="confirmPassword" class="form-control">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+</form>-->
